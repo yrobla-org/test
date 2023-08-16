@@ -6,6 +6,7 @@ name: Docker unsigned
 # documentation.
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '15 12 * * *'
   push:
